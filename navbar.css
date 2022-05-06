@@ -1,0 +1,50 @@
+.enlace{
+    display: inline-block;
+    background-color: aquamarine;
+    color: brown;
+    padding: 10px 30px;
+}
+
+.enlace:hover{
+    background-color: blueviolet;
+
+}
+nav{
+    background-color: gold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+
+}
+button:hover{
+    background-color: gold;
+    color: blue;
+}
+button:active{
+    background-color: blue;
+    color: gold;
+}
+.boton{
+    padding: 10px 0;
+    border: 2px solid red;
+    display: none;
+}
+@media (max-width: 600px){
+    nav{
+        background-color: orange;
+        flex-direction: column;
+    }
+    .enlace{
+        margin: 10px 0;
+    }
+    .boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
